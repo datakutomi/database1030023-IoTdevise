@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: database1030023-IoTdevise
+  host: database1030023-IoTdevise
+  disk_quota: 1024M
+  services:
+  - database1030023-IoTdevise-cloudantNoSQLDB
